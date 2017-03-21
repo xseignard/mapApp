@@ -1,0 +1,29 @@
+{
+	"env": {
+		"mocha": true,
+		"node": true,
+		"browser": true,
+	},
+	"parser": "babel-eslint",
+	"extends": "airbnb",
+	"rules": {
+		"strict": 0,
+		"new-cap": 0,
+		"no-console": 0,
+		"no-tabs": 0,
+		"no-underscore-dangle": 0,
+		"import/extensions": 0,
+		"arrow-body-style": 0,
+		"brace-style": [2, "stroustrup"],
+		"indent": [2, "tab", {"SwitchCase": 1}],
+		"no-unused-vars": [2, {"vars": "all", "args": "none"}],
+		"no-param-reassign": 0,
+		"no-alert": 0,
+		"comma-dangle": 0,
+		"react/prop-types": 0,
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"react/jsx-indent": [2, "tab"],
+		"react/jsx-indent-props": [2, "tab"],
+		"react/jsx-no-bind": 0,
+	}
+}
